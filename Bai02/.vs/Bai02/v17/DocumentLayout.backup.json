@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NHA\\IT008_L\u1EADp tr\u00ECnh tr\u1EF1c quan\\BTH1_VoTanNha_24521225\\Bai02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56E583BA-118D-440D-82F1-1630921BDD9A}|Bai02\\Bai02.csproj|d:\\nha\\it008_l\u1EADp tr\u00ECnh tr\u1EF1c quan\\bth1_votannha_24521225\\bai02\\bai02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E583BA-118D-440D-82F1-1630921BDD9A}|Bai02\\Bai02.csproj|solutionrelative:bai02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E583BA-118D-440D-82F1-1630921BDD9A}|Bai02\\Bai02.csproj|d:\\nha\\it008_l\u1EADp tr\u00ECnh tr\u1EF1c quan\\bth1_votannha_24521225\\bai02\\bai02\\bai02.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{56E583BA-118D-440D-82F1-1630921BDD9A}|Bai02\\Bai02.csproj|solutionrelative:bai02\\bai02.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bai02.csproj",
+              "DocumentMoniker": "D:\\NHA\\IT008_L\u1EADp tr\u00ECnh tr\u1EF1c quan\\BTH1_VoTanNha_24521225\\Bai02\\Bai02\\Bai02.csproj",
+              "RelativeDocumentMoniker": "Bai02\\Bai02.csproj",
+              "ToolTip": "D:\\NHA\\IT008_L\u1EADp tr\u00ECnh tr\u1EF1c quan\\BTH1_VoTanNha_24521225\\Bai02\\Bai02\\Bai02.csproj",
+              "RelativeToolTip": "Bai02\\Bai02.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-03T03:14:47.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\NHA\\IT008_L\u1EADp tr\u00ECnh tr\u1EF1c quan\\BTH1_VoTanNha_24521225\\Bai02\\Bai02\\Program.cs",
+              "RelativeDocumentMoniker": "Bai02\\Program.cs",
+              "ToolTip": "D:\\NHA\\IT008_L\u1EADp tr\u00ECnh tr\u1EF1c quan\\BTH1_VoTanNha_24521225\\Bai02\\Bai02\\Program.cs",
+              "RelativeToolTip": "Bai02\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T01:43:09.162Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
