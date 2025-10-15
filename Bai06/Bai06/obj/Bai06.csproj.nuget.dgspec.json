@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NHA\\Lập trình trực quan\\BTH1_VoTanNha_24521225\\Bai06\\Bai06\\Bai06.csproj": {}
+    "D:\\NHA\\IT008_Lập trình trực quan\\BTH1_VoTanNha_24521225\\Bai06\\Bai06\\Bai06.csproj": {}
   },
   "projects": {
-    "D:\\NHA\\Lập trình trực quan\\BTH1_VoTanNha_24521225\\Bai06\\Bai06\\Bai06.csproj": {
+    "D:\\NHA\\IT008_Lập trình trực quan\\BTH1_VoTanNha_24521225\\Bai06\\Bai06\\Bai06.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NHA\\Lập trình trực quan\\BTH1_VoTanNha_24521225\\Bai06\\Bai06\\Bai06.csproj",
+        "projectUniqueName": "D:\\NHA\\IT008_Lập trình trực quan\\BTH1_VoTanNha_24521225\\Bai06\\Bai06\\Bai06.csproj",
         "projectName": "Bai06",
-        "projectPath": "D:\\NHA\\Lập trình trực quan\\BTH1_VoTanNha_24521225\\Bai06\\Bai06\\Bai06.csproj",
+        "projectPath": "D:\\NHA\\IT008_Lập trình trực quan\\BTH1_VoTanNha_24521225\\Bai06\\Bai06\\Bai06.csproj",
         "packagesPath": "C:\\Users\\NHA\\.nuget\\packages\\",
-        "outputPath": "D:\\NHA\\Lập trình trực quan\\BTH1_VoTanNha_24521225\\Bai06\\Bai06\\obj\\",
+        "outputPath": "D:\\NHA\\IT008_Lập trình trực quan\\BTH1_VoTanNha_24521225\\Bai06\\Bai06\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

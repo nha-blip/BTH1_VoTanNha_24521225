@@ -35,11 +35,20 @@ namespace Bai03
             Console.OutputEncoding= Encoding.UTF8;
             int ngay, thang, nam;
             Console.Write("Nhập ngày: ");
-            ngay=int.Parse(Console.ReadLine());
+            while(!int.TryParse(Console.ReadLine(),out ngay))
+            {
+                Console.WriteLine("Nhập sai định dạng hãy nhập lại");
+            }
             Console.Write("Nhập tháng: ");
-            thang=int.Parse(Console.ReadLine());
+            while(!int.TryParse(Console.ReadLine(), out thang))
+            {
+                Console.WriteLine("Nhập sai định dạng hãy nhập lại");
+            }
             Console.Write("Nhập năm: ");
-            nam=int.Parse(Console.ReadLine());
+            while(!int.TryParse(Console.ReadLine(), out nam))
+            {
+                Console.WriteLine("Nhập sai định dạng hãy nhập lại");
+            }
             if (check(ngay, thang, nam)) Console.WriteLine("Bạn nhập hợp lệ");
             else Console.WriteLine("Bạn Nhập không hợp lệ");
         }

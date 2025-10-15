@@ -4,7 +4,7 @@ namespace Hello
 {
     class Bai1
     {
-
+        // hàm tính tổng
         static int Tong(int[] Arr, int n)
         {
             int Sum = 0;
@@ -14,6 +14,7 @@ namespace Hello
             }
             return Sum;
         }
+        // Hàm kiểm tra một số nguyên tố
         static bool SNT(int a)
         {
             if (a < 2) return false;
@@ -23,6 +24,7 @@ namespace Hello
             }
             return true;
         }
+        // Hàm đếm số nguyên tố
         static int SoNguyenTo(int[] Arr, int n)
         {
             int count = 0;
@@ -35,12 +37,14 @@ namespace Hello
             }
             return count;
         }
+        // Hàm kiểm tra số chính phương
         static bool ChinhPhuong(int a)
         {
             if (a < 0) return false;
             if ((int)Math.Sqrt(a) == Math.Sqrt(a)) return true;
             return false;
         }
+        // Hàm tìm số chính phương lớn nhất
         static int SoChinhPhuong(int[] Arr, int n)
         {
             int Min = int.MaxValue;
@@ -56,6 +60,7 @@ namespace Hello
             if (flag) return Min;
             return -1;
         }
+        // Hàm phát sinh ngẫu nhiên mãng số nguyên
         static void Random(int n, int[] Arr)
         {
             Random rd = new Random();
@@ -71,14 +76,22 @@ namespace Hello
             Console.OutputEncoding=Encoding.UTF8;
             int n;
             Console.WriteLine("Nhập số phần tử của mảng");
-            n = int.Parse(Console.ReadLine());
+            while (!int.TryParse(Console.ReadLine(), out n) || n<1)
+            {
+                Console.WriteLine("Nhập sai, hãy nhập lại"); 
+            }
             int[] Arr = new int[n];
-
             Random(n, Arr);
             Console.WriteLine("tổng số lẻ trong mảng: " + Tong(Arr, n));
             Console.WriteLine("Số lượng số nguyên tố trong mảng: " + SoNguyenTo(Arr, n));
-            Console.WriteLine("Số chính phương nhỏ nhất: " + SoChinhPhuong(Arr, n));
-
+            if (SoChinhPhuong(Arr, n) != -1)
+            {
+                Console.WriteLine("Số chính phương nhỏ nhất: " + SoChinhPhuong(Arr, n));
+            }
+            else
+            {
+                Console.WriteLine("Mảng không có số chính phương"); 
+            }        
         }
     }
 }

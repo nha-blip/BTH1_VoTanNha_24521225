@@ -12,7 +12,7 @@ namespace Bai06
             {
                 for (int j = 0; j < m; j++)
                 {
-                    matrix[i, j] = rd.Next(-100, 100);
+                    matrix[i, j] = rd.Next(0, 100);
                 }
             }
         }
@@ -95,8 +95,12 @@ namespace Bai06
         // e. Xóa dòng thứ k trong ma trận 
         static void DeleteRow(ref int[,] matrix, ref int n, int m)
         {
-            Console.Write("Nhập dòng cần xóa: ");
-            int k = int.Parse(Console.ReadLine());
+            Console.Write("Nhập dòng cần xóa(0 đến {0}): ", n - 1);
+            int k;
+            while (!int.TryParse(Console.ReadLine(), out k) || k < 0 || k >= n)
+            {
+                Console.Write("Dòng không hợp lệ! Vui lòng nhập lại (0 đến {0}): ", n - 1);
+            }
 
             int[,] newMatrix = new int[n - 1, m];
             int newRow = 0;
@@ -140,9 +144,19 @@ namespace Bai06
         {
             Console.OutputEncoding=Encoding.UTF8;
             int n, m;
-            Console.WriteLine("Nhập số hàng và cột của ma trận");
-            n = int.Parse(Console.ReadLine());
-            m= int.Parse(Console.ReadLine());
+            Console.WriteLine("Nhập số hàng và cột của ma trận:");
+            // Nhập số hàng
+            Console.Write("Nhập số hàng: ");
+            while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            {
+                Console.Write("Giá trị không hợp lệ! Vui lòng nhập lại số hàng (> 0): ");
+            }
+            // Nhập số cột
+            Console.Write("Nhập số cột: ");
+            while (!int.TryParse(Console.ReadLine(), out m) || m <= 0)
+            {
+                Console.Write("Giá trị không hợp lệ! Vui lòng nhập lại số cột (> 0): ");
+            }
             int[,] matrix=new int[n, m];
             RandomMatrix(matrix, n, m);
             Console.WriteLine("Ma trận vừa nhập: ");

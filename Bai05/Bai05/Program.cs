@@ -77,12 +77,24 @@ namespace Bai05
         {
             Console.OutputEncoding = Encoding.UTF8;
             int ngay, thang, nam;
-            Console.Write("Nhập ngày: ");
-            ngay = int.Parse(Console.ReadLine());
-            Console.Write("Nhập tháng: ");
-            thang = int.Parse(Console.ReadLine());
+            // Nhập năm
             Console.Write("Nhập năm: ");
-            nam = int.Parse(Console.ReadLine());
+            while (!int.TryParse(Console.ReadLine(), out nam))
+            {
+                Console.Write("Năm không hợp lệ! Vui lòng nhập lại");
+            }
+            // Nhập tháng
+            Console.Write("Nhập tháng: ");
+            while (!int.TryParse(Console.ReadLine(), out thang))
+            {
+                Console.Write("Tháng không hợp lệ! Vui lòng nhập lại");
+            }
+            // Nhập ngày
+            Console.Write("Nhập ngày: ");
+            while (!int.TryParse(Console.ReadLine(), out ngay))
+            {
+                Console.Write("Ngày không hợp lệ! Vui lòng nhập lại:");
+            }
             if (check(ngay, thang, nam))
             {
                 Console.WriteLine("Ngày " + ngay + " tháng " + thang + " năm " + nam + " là " + DayInWeekZeller(ngay, thang, nam));

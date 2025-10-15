@@ -33,9 +33,11 @@ namespace Th_Buoi1
                 Console.OutputEncoding = Encoding.UTF8;
                 int n;
                 Console.WriteLine("Nhập một số nguyên dương");
-                n = int.Parse(Console.ReadLine());
+                while (!int.TryParse(Console.ReadLine(),out n) || n<1)
+                {
+                Console.WriteLine("Nhập sai hãy nhập lại");
+                }
                 Console.WriteLine("Tổng các số nguyên tố bé hơn " + n + " : " + SoNguyenTo(n));
-                Console.ReadLine();
             }
         }
     }

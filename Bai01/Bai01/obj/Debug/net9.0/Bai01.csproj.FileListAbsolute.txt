@@ -26,3 +26,4 @@ D:\NHA\IT008_Lập trình trực quan\BTH1_VoTanNha_24521225\Bai01\Bai01\obj\Deb
 D:\NHA\IT008_Lập trình trực quan\BTH1_VoTanNha_24521225\Bai01\Bai01\obj\Debug\net9.0\Bai01.pdb
 D:\NHA\IT008_Lập trình trực quan\BTH1_VoTanNha_24521225\Bai01\Bai01\obj\Debug\net9.0\Bai01.genruntimeconfig.cache
 D:\NHA\IT008_Lập trình trực quan\BTH1_VoTanNha_24521225\Bai01\Bai01\obj\Debug\net9.0\ref\Bai01.dll
+D:\NHA\IT008_Lập trình trực quan\BTH1_VoTanNha_24521225\Bai01\Bai01\obj\Debug\net9.0\Bai01.sourcelink.json

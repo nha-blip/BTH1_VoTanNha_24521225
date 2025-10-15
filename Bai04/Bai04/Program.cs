@@ -41,9 +41,15 @@ namespace Bai04
             Console.OutputEncoding = Encoding.UTF8;
             int thang, nam;
             Console.Write("Nhập tháng: ");
-            thang = int.Parse(Console.ReadLine());
+            while (!int.TryParse(Console.ReadLine(), out thang))
+            {
+                Console.Write("Tháng không hợp lệ! Vui lòng nhập lại");
+            }
             Console.Write("Nhập năm: ");
-            nam = int.Parse(Console.ReadLine());
+            while (!int.TryParse(Console.ReadLine(), out nam))
+            {
+                Console.Write("Năm không hợp lệ! Vui lòng nhập lại");
+            }
             if (Count(thang, nam) != -1) Console.WriteLine("Tháng " + thang + " năm "+nam+ " có " + Count(thang, nam) + " ngày");
             else Console.WriteLine("Bạn nhập không hợp lệ");
             Console.ReadLine();
